@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js global bin
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Users/gw/.composer/vendor/bin:/usr/local/sbin:/Users/gw/.npm-packages/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/Cellar/rabbitmq/3.7.11/sbin/
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/gw/repos/crud-posts/package.json: Unexpected token } in JSON at position 731
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "crud-posts",
+    "version": "0.0.1",
+    "description": "create, read, update, delete.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server/index.js",
+      "dev": "nodemon server/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/glweems/crud-posts.git"
+    },
+    "author": "Garrett Weems <gwgraphicdesign@gmail.com> (https://glweems.com)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/glweems/crud-posts/issues"
+    },
+    "homepage": "https://github.com/glweems/crud-posts#readme",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "express": "^4.16.4",
+      "mongodb": "^3.2.4"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.0"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

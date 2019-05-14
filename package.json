@@ -1,0 +1,32 @@
+{
+  "name": "crud-posts",
+  "version": "0.0.1",
+  "description": "create, read, update, delete.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glweems/crud-posts.git"
+  },
+  "author": "Garrett Weems <gwgraphicdesign@gmail.com> (https://glweems.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glweems/crud-posts/issues"
+  },
+  "homepage": "https://github.com/glweems/crud-posts#readme",
+  "dependencies": {
+    "@vue/cli": "^3.7.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.1"
+  }
+}
